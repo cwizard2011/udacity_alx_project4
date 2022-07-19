@@ -47,7 +47,7 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
-- I configure the kubenetes environment using cloud9 and set it up via minikube
+- I configure the kubenetes environment using cloud9 Amazon Linux2 OS and set it up via minikube
 - Check [here](https://kubernetes.io/docs/tutorials/hello-minikube/) for how to setup minikube
 - Check [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) on how to setup kubernetes
 - Run `kubectl create deploy <name of the pod>  --image=<docker image name>` to deploy the pod
