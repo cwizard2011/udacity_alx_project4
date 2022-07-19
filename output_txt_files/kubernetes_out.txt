@@ -1,6 +1,8 @@
+1. Pod's name and status 
 NAME                                  READY   STATUS    RESTARTS   AGE
 devop-ml-prediction-9659fd557-g4jtc   1/1     Running   0          16s
-python-app-f876c44d5-8jhlg            1/1     Running   0          99s
+
+2. Log output from Kubernetes 
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
 Handling connection for 8000
