@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/cwizard2011/udacity_alx_project4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/cwizard2011/udacity_alx_project4/tree/main)
 
 ## Project Overview
 
@@ -43,8 +43,14 @@ source .devops/bin/activate
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
 ### Kubernetes Steps
-
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+- I configure the kubenetes environment using cloud9 and set it up via minikube
+- Check [here](https://kubernetes.io/docs/tutorials/hello-minikube/) for how to setup minikube
+- Check [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) on how to setup kubernetes
+- Run `kubectl create deploy <name of the pod>  --image=<docker image name>` to deploy the pod
+- RUN `kubectl get pods` to list the pods
+- RUN `kubectl port-forward pod/<pod-name> --address 0.0.0.0 8000:80` to expose the pod port
+
