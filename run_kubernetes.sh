@@ -15,4 +15,4 @@ kubectl create deploy devop-ml-prediction  --image=cwizard/devop-ml-prediction
 kubectl get pods 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/devop-ml-prediction-9659fd557-g4jtc --address 0.0.0.0 8000:80
+kubectl port-forward pod/devop-ml-prediction-9659fd557-wn4mb --address 0.0.0.0 8000:80
